@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "composer/installers": "~1.0"
+        "getkirby/composer-installer": "~1.1"
     }
 }
