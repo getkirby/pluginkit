@@ -19,13 +19,9 @@ You can find a list of Pluginkit variants on the [`master` branch](https://githu
 
 ### Install the development and build setup
 
-We use [Parcel](https://parceljs.org/) for the development and build setup.
+We use [kirbyup](https://github.com/johannschopplich/kirbyup) for the development and build setup.
 
-We recommend to install parcel globally, so you can reuse it for all your plugins:
-
-```
-npm install -g parcel-bundler
-```
+You can start developing directly. kirbyup will be fetched remotely with your first `npm run` command, which may take a short amount of time.
 
 ### Development
 
@@ -36,8 +32,7 @@ npm run dev
 ```
 
 This will automatically update the `index.js` and `index.css` of your plugin as soon as you make changes.
-It will also enable hot module reloading in the panel. Reload the panel once and afterwards you should
-see changes immediately without further reloading.
+Reload the Panel to see your code changes reflected.
 
 ### Production
 
