@@ -1,5 +1,5 @@
 <template>
-  <section class="k-links-section">
+  <section class="k-demo-section">
     <header class="k-section-header">
       <h2 class="k-headline">Your custom section</h2>
     </header>
@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style>
-/** Put your css here **/
+/** Put your CSS here **/
 </style>
