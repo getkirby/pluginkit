@@ -25,7 +25,7 @@ You can start developing directly. kirbyup will be fetched remotely with your fi
 
 ### Development
 
-You can start the dev process with …
+You can start the dev process with:
 
 ```
 npm run dev
@@ -36,7 +36,7 @@ Reload the Panel to see your code changes reflected.
 
 ### Production
 
-As soon as you are happy with your plugin, you should build the final version with
+As soon as you are happy with your plugin, you should build the final version with:
 
 ```
 npm run build
