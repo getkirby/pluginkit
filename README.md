@@ -49,7 +49,7 @@ We have a tutorial on how to build your own plugin based on the Pluginkit [in th
 
 ### Build reproducibility
 
-While kirbyup will stay backwards compatible, exact build reproducibility may be of importance to you. If so, I recommend to target a specific package version, rather than using npx:
+While kirbyup will stay backwards compatible, exact build reproducibility may be of importance to you. If so, we recommend to target a specific package version, rather than using npx:
 
 ```json
 {
