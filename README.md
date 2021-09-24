@@ -19,29 +19,24 @@ You can find a list of Pluginkit variants on the [`master` branch](https://githu
 
 ### Install the development and build setup
 
-We use [Parcel](https://parceljs.org/) for the development and build setup.
+We use [kirbyup](https://github.com/johannschopplich/kirbyup) for the development and build setup.
 
-We recommend to install parcel globally, so you can reuse it for all your plugins:
-
-```
-npm install -g parcel-bundler
-```
+You can start developing directly. kirbyup will be fetched remotely with your first `npm run` command, which may take a short amount of time.
 
 ### Development
 
-You can start the dev process with …
+You can start the dev process with:
 
 ```
 npm run dev
 ```
 
 This will automatically update the `index.js` and `index.css` of your plugin as soon as you make changes.
-It will also enable hot module reloading in the panel. Reload the panel once and afterwards you should
-see changes immediately without further reloading.
+Reload the Panel to see your code changes reflected.
 
 ### Production
 
-As soon as you are happy with your plugin, you should build the final version with
+As soon as you are happy with your plugin, you should build the final version with:
 
 ```
 npm run build
@@ -51,6 +46,22 @@ This will automatically create a minified and optimized version of your `index.j
 which you can ship with your plugin.
 
 We have a tutorial on how to build your own plugin based on the Pluginkit [in the Kirby documentation](https://getkirby.com/docs/guide/plugins/plugin-setup-basic).
+
+### Build reproducibility
+
+While kirbyup will stay backwards compatible, exact build reproducibility may be of importance to you. If so, we recommend to target a specific package version, rather than using npx:
+
+```json
+{
+  "scripts": {
+    "dev": "kirbyup src/index.js --watch",
+    "build": "kirbyup src/index.js"
+  },
+  "devDependencies": {
+    "kirbyup": "^0.9.5"
+  }
+}
+```
 
 What follows is an example README for your plugin.
 
