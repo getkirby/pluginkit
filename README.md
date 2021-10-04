@@ -58,7 +58,7 @@ While kirbyup will stay backwards compatible, exact build reproducibility may be
     "build": "kirbyup src/index.js"
   },
   "devDependencies": {
-    "kirbyup": "^0.9.5"
+    "kirbyup": "^0.14.1"
   }
 }
 ```
