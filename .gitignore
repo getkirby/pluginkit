@@ -11,4 +11,4 @@
 /vendor
 
 # kirbyup temp development entry
-/_index.mjs
+/index.dev.mjs
