@@ -9,3 +9,6 @@
 
 # Composer files
 /vendor
+
+# kirbyup temp development entry
+/index.dev.mjs
