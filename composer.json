@@ -3,6 +3,7 @@
     "description": "Kirby Example Plugin",
     "license": "MIT",
     "type": "kirby-plugin",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Your Name",
