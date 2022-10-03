@@ -1,8 +1,8 @@
 {
     "name": "getkirby/pluginkit",
     "description": "Kirby Example Plugin",
-    "type": "kirby-plugin",
     "license": "MIT",
+    "type": "kirby-plugin",
     "authors": [
         {
             "name": "Your Name",
