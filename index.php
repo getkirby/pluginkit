@@ -1,7 +1,5 @@
 <?php
 
-use Kirby\Filesystem\F;
-
 F::loadClasses([
 	'superwoman\\superplugin\\superclass' => 'src/Superclass.php'
 ], __DIR__);
