@@ -27,7 +27,7 @@ You can start developing directly. kirbyup will be fetched remotely with your fi
 
 You can start the dev process with:
 
-```
+```bash
 npm run dev
 ```
 
@@ -36,19 +36,20 @@ Reload the Panel to see your code changes reflected.
 
 With kirbyup 2.0.0+ and Kirby 3.7.4+ you can alternatively use hot module reloading (HMR):
 
-```
+```bash
 npm run serve
 ```
 
 This will start a development server that updates the page as soon as you make changes. Some updates are instant, like CSS or Vue template changes, others require a reload of the page, which happens automatically.
 
-> 💡 The live reload functionality requires top level await, [which is only supported in modern browsers](https://caniuse.com/mdn-javascript_operators_await_top_level). If you're developing in older browsers, use `npm run dev` and reload the page manually to see changes.
+> [!NOTE]
+> The live reload functionality requires top level await, [which is only supported in modern browsers](https://caniuse.com/mdn-javascript_operators_await_top_level). If you're developing in older browsers, use `npm run dev` and reload the page manually to see changes.
 
 ### Production
 
 As soon as you are happy with your plugin, you should build the final version with:
 
-```
+```bash
 npm run build
 ```
 
@@ -68,7 +69,7 @@ While kirbyup will stay backwards compatible, exact build reproducibility may be
     "build": "kirbyup src/index.js"
   },
   "devDependencies": {
-    "kirbyup": "^0.14.1"
+    "kirbyup": "^3.1.0"
   }
 }
 ```
@@ -85,13 +86,13 @@ Download and copy this repository to `/site/plugins/{{ plugin-name }}`.
 
 ### Git submodule
 
-```
+```bash
 git submodule add https://github.com/{{ your-name }}/{{ plugin-name }}.git site/plugins/{{ plugin-name }}
 ```
 
 ### Composer
 
-```
+```bash
 composer require {{ your-name }}/{{ plugin-name }}
 ```
 
